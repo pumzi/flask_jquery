@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<!--
+1. Create a new Flask app that allows users to post about a social justice topic of your choosing. The app must:
+#Make use of Bootstrap
+#Make use of jQuery at least once
+#Connect to a postgres database
+#Have at least one view-->
+
+<html>
+
+<head>
+	<meta charset="utf-8"> 
+	<title>The Space Between</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/bootstrap.css')}}">
+	<!--Note above: the stylesheet must be written in code that flask understands -->
+	<link rel="stylesheet" type ="text/css" href="{{ url_for('static', filename='stylesheet.css')}}">
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<h1><a href=""#"">Public Space is the Place</a></h1>
+		<div class="navbar">
+				<div class="navbar-inner">
+					<div class ="container">
+						<ul class="nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Ideas</a></li>
+                    		<li><a href="#">Landscapes</a></li>
+                    	</ul>
+                    </div>
+                   </div>
+                  </div>
+
+<br>
+<br>
+ <form id='locator_info'>
+
+ 
+
+	<input id="search" type="text" placeholder="city and state or zip-code or street address">
+
+	<input id="submit" type="submit" value="Search">
+
+</form>
+
+<div class="input-group input-group-lg">
+	<script type="text/javascript">
+
+	$("#greybox").click(function() {  
+  <span class="input-group-addon">@</span>
+  <input type="text" class="form-control" placeholder="What does Public Space mean to you?">
+  <input type="submit">
+	
+	</script>
+</div>
+
+
+
+
+</body>
+
+
+</html>
